@@ -1,0 +1,8 @@
+print('Hello, what is your name?')
+name = input()
+print('Hello ' + name + ', welcome to Python!')
+print('It seems super intimidating at first but eventually you will get it. I know you can do this ' + name + '!')
+print('For right now I can tell you that your name has ' + str(len(name)) + ' letters.')
+print('One more question, how old are you?')
+age = input()
+print('Wow, ' + age + '. In 52 years you will be ' + str(int(age) + 52) + '.')
